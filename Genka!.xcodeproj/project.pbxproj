@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98BD3FE11C5A18E800E01A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3FE01C5A18E800E01A3E /* main.m */; };
+		98BD3FE41C5A18E800E01A3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3FE31C5A18E800E01A3E /* AppDelegate.m */; };
+		98BD3FE71C5A18E800E01A3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3FE61C5A18E800E01A3E /* ViewController.m */; };
+		98BD3FEA1C5A18E800E01A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BD3FE81C5A18E800E01A3E /* Main.storyboard */; };
+		98BD3FEC1C5A18E800E01A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BD3FEB1C5A18E800E01A3E /* Assets.xcassets */; };
+		98BD3FEF1C5A18E800E01A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BD3FED1C5A18E800E01A3E /* LaunchScreen.storyboard */; };
+		98BD3FF81C5B69AE00E01A3E /* SyousaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3FF71C5B69AE00E01A3E /* SyousaiViewController.m */; };
+		98BD3FFB1C5B69EF00E01A3E /* TourokuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3FFA1C5B69EF00E01A3E /* TourokuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98BD3FDC1C5A18E800E01A3E /* Genka!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genka!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BD3FE01C5A18E800E01A3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98BD3FE21C5A18E800E01A3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98BD3FE31C5A18E800E01A3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98BD3FE51C5A18E800E01A3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98BD3FE61C5A18E800E01A3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98BD3FE91C5A18E800E01A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98BD3FEB1C5A18E800E01A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98BD3FEE1C5A18E800E01A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98BD3FF01C5A18E800E01A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98BD3FF61C5B69AE00E01A3E /* SyousaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyousaiViewController.h; sourceTree = "<group>"; };
+		98BD3FF71C5B69AE00E01A3E /* SyousaiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyousaiViewController.m; sourceTree = "<group>"; };
+		98BD3FF91C5B69EF00E01A3E /* TourokuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourokuViewController.h; sourceTree = "<group>"; };
+		98BD3FFA1C5B69EF00E01A3E /* TourokuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourokuViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98BD3FD91C5A18E800E01A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98BD3FD31C5A18E800E01A3E = {
+			isa = PBXGroup;
+			children = (
+				98BD3FDE1C5A18E800E01A3E /* Genka! */,
+				98BD3FDD1C5A18E800E01A3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98BD3FDD1C5A18E800E01A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98BD3FDC1C5A18E800E01A3E /* Genka!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98BD3FDE1C5A18E800E01A3E /* Genka! */ = {
+			isa = PBXGroup;
+			children = (
+				98BD3FE21C5A18E800E01A3E /* AppDelegate.h */,
+				98BD3FE31C5A18E800E01A3E /* AppDelegate.m */,
+				98BD3FE51C5A18E800E01A3E /* ViewController.h */,
+				98BD3FE61C5A18E800E01A3E /* ViewController.m */,
+				98BD3FE81C5A18E800E01A3E /* Main.storyboard */,
+				98BD3FF91C5B69EF00E01A3E /* TourokuViewController.h */,
+				98BD3FFA1C5B69EF00E01A3E /* TourokuViewController.m */,
+				98BD3FF61C5B69AE00E01A3E /* SyousaiViewController.h */,
+				98BD3FF71C5B69AE00E01A3E /* SyousaiViewController.m */,
+				98BD3FEB1C5A18E800E01A3E /* Assets.xcassets */,
+				98BD3FED1C5A18E800E01A3E /* LaunchScreen.storyboard */,
+				98BD3FF01C5A18E800E01A3E /* Info.plist */,
+				98BD3FDF1C5A18E800E01A3E /* Supporting Files */,
+			);
+			path = "Genka!";
+			sourceTree = "<group>";
+		};
+		98BD3FDF1C5A18E800E01A3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98BD3FE01C5A18E800E01A3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98BD3FDB1C5A18E800E01A3E /* Genka! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98BD3FF31C5A18E800E01A3E /* Build configuration list for PBXNativeTarget "Genka!" */;
+			buildPhases = (
+				98BD3FD81C5A18E800E01A3E /* Sources */,
+				98BD3FD91C5A18E800E01A3E /* Frameworks */,
+				98BD3FDA1C5A18E800E01A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Genka!";
+			productName = "Genka!";
+			productReference = 98BD3FDC1C5A18E800E01A3E /* Genka!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98BD3FD41C5A18E800E01A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tgaiacontentsdev;
+				TargetAttributes = {
+					98BD3FDB1C5A18E800E01A3E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 98BD3FD71C5A18E800E01A3E /* Build configuration list for PBXProject "Genka!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98BD3FD31C5A18E800E01A3E;
+			productRefGroup = 98BD3FDD1C5A18E800E01A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98BD3FDB1C5A18E800E01A3E /* Genka! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98BD3FDA1C5A18E800E01A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BD3FEF1C5A18E800E01A3E /* LaunchScreen.storyboard in Resources */,
+				98BD3FEC1C5A18E800E01A3E /* Assets.xcassets in Resources */,
+				98BD3FEA1C5A18E800E01A3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98BD3FD81C5A18E800E01A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BD3FE71C5A18E800E01A3E /* ViewController.m in Sources */,
+				98BD3FE41C5A18E800E01A3E /* AppDelegate.m in Sources */,
+				98BD3FF81C5B69AE00E01A3E /* SyousaiViewController.m in Sources */,
+				98BD3FE11C5A18E800E01A3E /* main.m in Sources */,
+				98BD3FFB1C5B69EF00E01A3E /* TourokuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98BD3FE81C5A18E800E01A3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98BD3FE91C5A18E800E01A3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98BD3FED1C5A18E800E01A3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98BD3FEE1C5A18E800E01A3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98BD3FF11C5A18E800E01A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98BD3FF21C5A18E800E01A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98BD3FF41C5A18E800E01A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Genka!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.Genka-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98BD3FF51C5A18E800E01A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Genka!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.Genka-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98BD3FD71C5A18E800E01A3E /* Build configuration list for PBXProject "Genka!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98BD3FF11C5A18E800E01A3E /* Debug */,
+				98BD3FF21C5A18E800E01A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98BD3FF31C5A18E800E01A3E /* Build configuration list for PBXNativeTarget "Genka!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98BD3FF41C5A18E800E01A3E /* Debug */,
+				98BD3FF51C5A18E800E01A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98BD3FD41C5A18E800E01A3E /* Project object */;
+}

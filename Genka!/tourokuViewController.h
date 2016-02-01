@@ -8,6 +8,6 @@
 
 #import "ViewController.h"
 
-@interface TourokuViewController : ViewController<UITableViewDelegate,UITableViewDataSource>
+@interface TourokuViewController : ViewController
 
 @end

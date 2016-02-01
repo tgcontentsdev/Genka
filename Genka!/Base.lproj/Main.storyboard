@@ -36,13 +36,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genka!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDZ-iM-mQz">
-                                <rect key="frame" x="73" y="136" width="229" height="95"/>
+                                <rect key="frame" x="73" y="114" width="229" height="117"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="62"/>
                                 <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYe-ep-2d0">
-                                <rect key="frame" x="76" y="301" width="224" height="65"/>
+                                <rect key="frame" x="76" y="281" width="224" height="65"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="224" id="TMQ-mb-IrF"/>
@@ -54,7 +54,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H50-2x-RwE">
-                                <rect key="frame" x="75" y="421" width="224" height="65"/>
+                                <rect key="frame" x="75" y="401" width="224" height="65"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="fUJ-gm-EIH"/>
@@ -66,14 +66,14 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXs-8P-eBo">
-                                <rect key="frame" x="75.5" y="541" width="224" height="65"/>
+                                <rect key="frame" x="76" y="521" width="224" height="65"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="GNb-hZ-irK"/>
                                     <constraint firstAttribute="width" constant="224" id="VZs-wE-A9T"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="原価登録">
+                                <state key="normal" title="材料登録">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -85,11 +85,11 @@
                         <constraints>
                             <constraint firstItem="MYe-ep-2d0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8jJ-Be-B5S"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MDZ-iM-mQz" secondAttribute="bottom" constant="436" id="9S5-Gf-x9A"/>
-                            <constraint firstItem="MYe-ep-2d0" firstAttribute="top" secondItem="MDZ-iM-mQz" secondAttribute="bottom" constant="70" id="EaG-oj-8Fo"/>
+                            <constraint firstItem="MYe-ep-2d0" firstAttribute="top" secondItem="MDZ-iM-mQz" secondAttribute="bottom" constant="50" id="EaG-oj-8Fo"/>
                             <constraint firstItem="MDZ-iM-mQz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G0K-rV-v0c"/>
                             <constraint firstItem="WXs-8P-eBo" firstAttribute="top" secondItem="H50-2x-RwE" secondAttribute="bottom" constant="55" id="VOq-nB-N2S"/>
                             <constraint firstItem="WXs-8P-eBo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="chN-5n-A1D"/>
-                            <constraint firstItem="MDZ-iM-mQz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="72" id="ckj-s9-tq8"/>
+                            <constraint firstItem="MDZ-iM-mQz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="ckj-s9-tq8"/>
                             <constraint firstItem="H50-2x-RwE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qKt-nR-lvL"/>
                             <constraint firstItem="MDZ-iM-mQz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="57" id="xMf-ub-nG6"/>
                             <constraint firstItem="H50-2x-RwE" firstAttribute="top" secondItem="MYe-ep-2d0" secondAttribute="bottom" constant="55" id="xg9-Sb-vQl"/>
@@ -192,7 +192,7 @@
         <!--Genka!-->
         <scene sceneID="6Ar-xX-o2F">
             <objects>
-                <viewController id="9VA-mH-wUE" customClass="tourokuViewController" sceneMemberID="viewController">
+                <viewController id="9VA-mH-wUE" customClass="TourokuViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FOO-VD-LPU"/>
                         <viewControllerLayoutGuide type="bottom" id="sff-Rm-eca"/>
@@ -201,35 +201,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bgb-DW-dbi">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XEk-JW-JQs">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="tTg-am-ADh">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="Ykh-RX-jjx">
                                         <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tTg-am-ADh" id="rCJ-TD-txo">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ykh-RX-jjx" id="V9J-8J-KoK">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="bDr-YT-N7F" id="QtG-P5-vxC"/>
-                                    <outlet property="delegate" destination="bDr-YT-N7F" id="nKT-Ko-Fla"/>
+                                    <outlet property="dataSource" destination="9VA-mH-wUE" id="2bc-ww-1ib"/>
+                                    <outlet property="delegate" destination="9VA-mH-wUE" id="fNV-cK-I0w"/>
                                 </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bgb-DW-dbi" firstAttribute="top" secondItem="bDr-YT-N7F" secondAttribute="top" id="IG1-4e-zUI"/>
-                            <constraint firstItem="sff-Rm-eca" firstAttribute="top" secondItem="bgb-DW-dbi" secondAttribute="bottom" id="fdc-5M-YTI"/>
-                            <constraint firstAttribute="trailing" secondItem="bgb-DW-dbi" secondAttribute="trailing" id="kyF-07-oi1"/>
-                            <constraint firstItem="bgb-DW-dbi" firstAttribute="leading" secondItem="bDr-YT-N7F" secondAttribute="leading" id="pxE-qn-MFR"/>
+                            <constraint firstAttribute="trailing" secondItem="XEk-JW-JQs" secondAttribute="trailing" id="0tw-YM-K3K"/>
+                            <constraint firstItem="XEk-JW-JQs" firstAttribute="leading" secondItem="bDr-YT-N7F" secondAttribute="leading" id="dh7-Zx-OYG"/>
+                            <constraint firstItem="XEk-JW-JQs" firstAttribute="top" secondItem="FOO-VD-LPU" secondAttribute="bottom" id="jgB-IE-9Nq"/>
+                            <constraint firstItem="sff-Rm-eca" firstAttribute="top" secondItem="XEk-JW-JQs" secondAttribute="bottom" id="lhP-du-VXs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Genka!" id="oqt-eN-cGk">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="1zo-f2-q6R"/>
+                        <barButtonItem key="rightBarButtonItem" title="材料登録" id="1zo-f2-q6R">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
@@ -240,7 +242,7 @@
             </objects>
             <point key="canvasLocation" x="743.5" y="1125.5"/>
         </scene>
-        <!--Syousai View Controller-->
+        <!--Genka!-->
         <scene sceneID="LHF-8s-6yx">
             <objects>
                 <viewController id="ceF-Ee-Lc9" customClass="syousaiViewController" sceneMemberID="viewController">
@@ -315,13 +317,19 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pk7-A4-vpo">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pk7-A4-vpo">
                                 <rect key="frame" x="72" y="281" width="230" height="230"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="230" id="CtQ-OL-L5a"/>
                                     <constraint firstAttribute="width" constant="230" id="X3x-Hh-i7m"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <inset key="imageEdgeInsets" minX="40" minY="40" maxX="40" maxY="40"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" image="camera.png"/>
+                                <connections>
+                                    <action selector="zairyouButtonAction:" destination="ceF-Ee-Lc9" eventType="touchUpInside" id="tX6-Sb-qUe"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="写真" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2v-ss-a4P">
                                 <rect key="frame" x="128" y="237" width="119" height="29"/>
@@ -334,7 +342,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSH-M8-abh">
-                                <rect key="frame" x="82.5" y="576" width="210" height="38"/>
+                                <rect key="frame" x="82" y="576" width="210" height="38"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="上記の内容で登録する">
@@ -397,11 +405,22 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" title="Genka!" id="hcO-ug-jmi">
+                        <barButtonItem key="rightBarButtonItem" title="材料登録" id="Qet-5g-yGN">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="zairyouButton" destination="pk7-A4-vpo" id="gK5-Uy-viN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qrw-yY-zxQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1204.5" y="1125.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="camera.png" width="240" height="240"/>
+    </resources>
 </document>

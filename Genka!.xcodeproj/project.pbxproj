@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9861A1EB1C5F6841003E6EA6 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 9861A1EA1C5F6841003E6EA6 /* camera.png */; };
 		98BD3FE11C5A18E800E01A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3FE01C5A18E800E01A3E /* main.m */; };
 		98BD3FE41C5A18E800E01A3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3FE31C5A18E800E01A3E /* AppDelegate.m */; };
 		98BD3FE71C5A18E800E01A3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3FE61C5A18E800E01A3E /* ViewController.m */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9861A1EA1C5F6841003E6EA6 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		98BD3FDC1C5A18E800E01A3E /* Genka!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genka!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BD3FE01C5A18E800E01A3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98BD3FE21C5A18E800E01A3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		98BD3FDF1C5A18E800E01A3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9861A1EA1C5F6841003E6EA6 /* camera.png */,
 				98BD3FE01C5A18E800E01A3E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -148,6 +151,7 @@
 			files = (
 				98BD3FEF1C5A18E800E01A3E /* LaunchScreen.storyboard in Resources */,
 				98BD3FEC1C5A18E800E01A3E /* Assets.xcassets in Resources */,
+				9861A1EB1C5F6841003E6EA6 /* camera.png in Resources */,
 				98BD3FEA1C5A18E800E01A3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +314,7 @@
 				98BD3FF51C5A18E800E01A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9861A1EB1C5F6841003E6EA6 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 9861A1EA1C5F6841003E6EA6 /* camera.png */; };
+		9861A1ED1C604CEC003E6EA6 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9861A1EC1C604CEC003E6EA6 /* plus.png */; };
 		98BD3FE11C5A18E800E01A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3FE01C5A18E800E01A3E /* main.m */; };
 		98BD3FE41C5A18E800E01A3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3FE31C5A18E800E01A3E /* AppDelegate.m */; };
 		98BD3FE71C5A18E800E01A3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3FE61C5A18E800E01A3E /* ViewController.m */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		9861A1EA1C5F6841003E6EA6 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		9861A1EC1C604CEC003E6EA6 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		98BD3FDC1C5A18E800E01A3E /* Genka!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genka!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BD3FE01C5A18E800E01A3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98BD3FE21C5A18E800E01A3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		98BD3FDF1C5A18E800E01A3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9861A1EC1C604CEC003E6EA6 /* plus.png */,
 				9861A1EA1C5F6841003E6EA6 /* camera.png */,
 				98BD3FE01C5A18E800E01A3E /* main.m */,
 			);
@@ -123,6 +126,7 @@
 				TargetAttributes = {
 					98BD3FDB1C5A18E800E01A3E = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RL2ZUT8S8K;
 					};
 				};
 			};
@@ -150,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98BD3FEF1C5A18E800E01A3E /* LaunchScreen.storyboard in Resources */,
+				9861A1ED1C604CEC003E6EA6 /* plus.png in Resources */,
 				98BD3FEC1C5A18E800E01A3E /* Assets.xcassets in Resources */,
 				9861A1EB1C5F6841003E6EA6 /* camera.png in Resources */,
 				98BD3FEA1C5A18E800E01A3E /* Main.storyboard in Resources */,
@@ -277,10 +282,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Genka!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.Genka-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -288,10 +296,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Genka!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.Genka-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
